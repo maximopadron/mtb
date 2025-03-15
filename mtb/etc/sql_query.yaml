@@ -1,0 +1,17 @@
+item_name1:
+  db_type: mysql
+  db_conn: mydb
+  db_host: localhost
+  db_port: 3306
+  db_user: guest
+  db_passswd: guest
+  query: "SELECT column FROM table;"
+  recurrent: 1h
+
+item_name2:
+  db_type: oracle
+  db_conn: mydb
+  db_user: guest
+  db_passswd: guest
+  query: "SELECT column FROM table;"
+  recurrent: 30m

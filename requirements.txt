@@ -1,0 +1,4 @@
+click
+pyyaml
+python-json-logger
+watchdog

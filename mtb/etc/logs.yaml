@@ -1,0 +1,12 @@
+/var/log/apache/www.log:
+  age: 1h
+  patterns:
+    - ".*SQL connection fail.*"
+    - ".*Connection error.*"
+
+/var/log/apache/mail.log:
+  age: 1h
+
+/var/log/apache/pop.log:
+  patterns:
+    - ".*Connection error.*"

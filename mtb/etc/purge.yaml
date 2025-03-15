@@ -1,0 +1,8 @@
+^/var/log/app/.*\.log$:
+  compress: 7
+  delete: 30
+  recursive: true
+
+^/home/user/data/.*\.txt$:
+  compress: 2
+  delete: 7

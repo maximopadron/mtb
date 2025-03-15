@@ -1,0 +1,8 @@
+Maximus Toolbox
+
+Copyright 2025 Dielson Padron e Silva (maximopadron@outlook.com)
+
+This product includes software developed by Dielson Padron e Silva.
+It is licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0).
+
+Maximus Toolbox is provided on an "AS IS" basis without any warranties, either express or implied.

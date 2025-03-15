@@ -1,0 +1,50 @@
+# ActiveMQ (using Jolokia)
+activemq:
+  - name: "ActiveMQ1"
+    api_url: "http://activemq1.example.com:8161/api/jolokia"
+    user: "admin"
+    password: "admin"
+
+# E-mail settings for send_email
+email_server: smtp.example.com
+email_port: 587
+email_from: noreply@example.com
+
+# IBM MQ
+ibmmq:
+  - name: "IBMMQ1"
+    api_url: "http://ibmmq1.example.com:9443/ibmmq/rest/v1"
+    qmgr: "QM1"
+    user: "app"
+    password: "pass"
+  - name: "IBMMQ2"
+    api_url: "http://ibmmq2.example.com:9443/ibmmq/rest/v1"
+    qmgr: "QM2"
+    user: "app"
+    password: "pass"
+
+# Kafka
+kafka:
+  - name: "Kafka1"
+    bootstrap_servers: "kafka1.example.com:9092"
+  - name: "Kafka2"
+    bootstrap_servers: "kafka2.example.com:9092"
+
+# Log level for all scripts:
+log_level: INFO
+
+# RabbitMQ
+rabbitmq:
+  - name: "RabbitMQ1"
+    api_url: "http://rabbitmq1.example.com:15672/api/queues"
+    user: "guest"
+    password: "guest"
+  - name: "RabbitMQ2"
+    api_url: "http://rabbitmq2.example.com:15672/api/queues"
+    user: "guest"
+    password: "guest"
+
+# Zabbix
+zabbix_server: "127.0.0.1"
+zabbix_port: 10051
+zabbix_host: "mtb-host" 
